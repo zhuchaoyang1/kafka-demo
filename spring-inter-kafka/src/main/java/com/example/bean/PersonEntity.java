@@ -1,0 +1,1 @@
+package com.example.bean;import lombok.AllArgsConstructor;import lombok.Builder;import lombok.Data;import lombok.NoArgsConstructor;/** * @author 朱朝阳 * @date 2019/11/21 20:17 */@Data@Builder@NoArgsConstructor@AllArgsConstructorpublic class PersonEntity {    private Long id;    private String name;    private Boolean gender;    private Double height;}
